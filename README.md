@@ -26,3 +26,10 @@
 
 This project demonstrates practical application of core web development skills and showcases how vanilla JavaScript can be used to manage state, DOM updates, and logic for interactive web apps. It is ideal for anyone looking to test their knowledge, prepare for exams, or just enjoy a quick quiz challenge online.
 
+#OUTPUT
+
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/ac38882b-e65c-4498-8047-274194679c5d" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/08b490b3-cc49-4a81-a2a0-203dd8bdd734" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/5651560f-a015-4440-8810-8fe9d55f5bc3" />

@@ -28,8 +28,8 @@ This project demonstrates practical application of core web development skills a
 
 #OUTPUT
 
-<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/ac38882b-e65c-4498-8047-274194679c5d" />
+<img width="1920" height="945" alt="Image" src="https://github.com/user-attachments/assets/d341c696-3647-4b94-88ee-069ca20d309f" />
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/08b490b3-cc49-4a81-a2a0-203dd8bdd734" />
+<img width="1920" height="960" alt="Image" src="https://github.com/user-attachments/assets/08463ecb-4d28-43ae-86c6-a428a317cb9c" />
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/5651560f-a015-4440-8810-8fe9d55f5bc3" />
+<img width="1920" height="948" alt="Image" src="https://github.com/user-attachments/assets/bab78537-7800-45cf-b162-666894b2bd85" />

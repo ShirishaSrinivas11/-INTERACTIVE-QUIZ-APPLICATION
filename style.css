@@ -1,0 +1,97 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#quiz-app {
+  width: 95%;
+  max-width: 520px;
+  background: rgba(255,255,255,0.98);
+  border-radius: 18px;
+  padding: 35px 20px 30px 20px;
+  box-shadow: 0 8px 32px rgba(44,78,182,0.13), 0 0 0 6px #aeeff4 inset;
+  text-align: center;
+  animation: fade-in 0.5s;
+}
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 30px;
+  color: #1976d2;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px #aeeff4;
+}
+#question {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  min-height: 54px;
+  color: #1b2121;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #f7ebff 0%, #e3f0ff 100%);
+  padding: 20px 8px 14px 8px;
+  box-shadow: 0 1px 6px rgba(55,100,195,0.08);
+}
+.btn-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 16px;
+  margin-bottom: 18px;
+}
+.btn {
+  padding: 14px 0;
+  font-size: 1.07rem;
+  font-weight: 600;
+  background: linear-gradient(60deg, #a18cd1 0%, #fbc2eb 100%);
+  color: #1b2121;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(100,140,220,0.10);
+  transition: all 0.18s;
+  outline: none;
+  letter-spacing: 0.7px;
+  opacity: 0.95;
+}
+.btn:active {
+  transform: scale(0.97);
+  filter: brightness(93%);
+}
+.btn.correct {
+  background: linear-gradient(60deg, #43e97b 0%, #38f9d7 100%) !important;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 0 0 2px #98eecc;
+}
+.btn.wrong {
+  background: linear-gradient(60deg, #ff5858 0%, #f09819 100%) !important;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 0 0 2px #ffd6a6;
+}
+.btn[disabled] {
+  opacity: 0.7;
+  cursor: default;
+}
+.hide { display: none !important; }
+#results {
+  font-size: 1.22em;
+  margin-top: 20px;
+  color: #34495e;
+  background: linear-gradient(180deg, #ffe9ec 0%, #ddf1fc 100%);
+  border-radius: 10px;
+  padding: 18px 8px;
+  box-shadow: 0 2px 9px rgba(55,100,195,0.12);
+}
+#controls {
+  margin-top: 20px; 
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+#restart-btn {
+  margin-top: 15px;
+}
